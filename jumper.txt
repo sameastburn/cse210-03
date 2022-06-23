@@ -1,0 +1,28 @@
+Classes
+- class Jumper
+-   The game itself
+- class ParachuteMan
+-   Drawing the parachute man
+- class GameOver
+-   For when the game is over
+- class Word
+-   Guessing the random word
+
+class: Jumper
+  playing: bool
+
+  constructor()
+  start()
+
+class: Word
+  get_input()
+  get_random_word()
+  check_input()
+
+class ParachuteMan:
+  lives: integer
+
+  draw_parachute_man()
+
+class GameOver:
+  game_over()
