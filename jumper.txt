@@ -9,7 +9,7 @@ Classes
 -   Guessing the random word
 
 class: Jumper
-  playing: bool
+  _playing: bool
 
   constructor()
   start()
@@ -20,9 +20,10 @@ class: Word
   check_input()
 
 class ParachuteMan:
-  lives: integer
+  _lives: integer (private)
 
   draw_parachute_man()
+  get_lives()
 
 class GameOver:
   game_over()
