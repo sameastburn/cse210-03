@@ -9,7 +9,7 @@ Classes
 -   Guessing the random word
 
 class: Jumper
-  _playing: bool
+  _playing: bool (private)
 
   constructor()
   start()
